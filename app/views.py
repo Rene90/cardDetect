@@ -30,8 +30,8 @@ def index():
 		upload_image.save(os.path.join(app.config["INITIAL_FILE_UPLOADS"],"image.jpg"))
 		
 		#resize and save the original image to ensure both uploaded and original matches in dize
-		original_image = Image.open(os.path.join(app.config["EXISTING_FILE"], "image.jpg"]).resize((250,160))
-		original_image.save(os.path.join(app.config["EXISTING_FILE"], 'image.jpg')
+		original_image = Image.open(os.path.join(app.config["EXISTING_FILE"], "image.jpg")).resize((250,160))
+		original_image.save(os.path.join(app.config["EXISTING_FILE"], 'image.jpg'))
 		
 		#Read uploaded and original image as array
 		
