@@ -6,7 +6,7 @@ class Config(object):
 	TESTING = False
 	basedir = os.path.abspath(os.path.dirname(__file__))
 	SECRET_KEY= 'pirene'
-	UPLOADS = "/home/rene/Documentos/DatasCourse/p1/uploads"
+	UPLOADS = "/home/rene/Documentos/DataSCourse/primerProyecto/app/static/uploads"
 	SESSION_COOKIE_SECURE = True
 	DEFAULT_THEME = None
 class DevelopmentConfig(Config):
